@@ -123,6 +123,7 @@ img {
 .studio-main {
 }
 .hero {
+  background-color: var(--back-color);
 }
 
 .hero-title {
@@ -234,6 +235,7 @@ img {
 /*team*/
 .team {
   margin-top: 100px;
+  background-color: #f5f4fa;
 }
 .team-title {
   font-family: Roboto;
@@ -273,7 +275,7 @@ img {
 .team-img {
 }
 .team-employee {
-  ont-family: Roboto;
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -282,7 +284,6 @@ img {
   color: var(--general-color);
   text-transform: uppercase;
   padding-top: 35px;
-  padding-bottom: 1px;
 }
 .team-profession {
   font-family: Roboto;
@@ -292,11 +293,17 @@ img {
   line-height: 19px;
   color: var(--paragraph-color);
   padding-bottom: 30px;
+  padding-top: 10px;
+}
+
+.olha {
+  padding-top: 9px;
 }
 
 /* footer*/
 
 .footer {
+  background-color: var(--back-color);
 }
 .footer-img {
   padding-bottom: 20px;
